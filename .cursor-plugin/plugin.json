@@ -1,0 +1,24 @@
+{
+  "name": "soundlink",
+  "version": "1.0.0",
+  "description": "Read campaigns, soundlinks, metrics, and wallet balance for a Soundlink organization.",
+  "author": {
+    "name": "Soundlink",
+    "email": "hello@getsoundlink.com"
+  },
+  "homepage": "https://www.getsoundlink.com/docs/mcp",
+  "repository": "https://github.com/Fan-ID/soundlink-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["soundlink", "mcp", "campaigns", "music"],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "SOUNDLINK_API_KEY": {
+        "type": "string",
+        "title": "Soundlink API key",
+        "description": "From Settings → Developer → API keys. Include campaigns:read, metrics:read, soundlinks:read, and wallet:read."
+      }
+    },
+    "required": ["SOUNDLINK_API_KEY"]
+  }
+}
