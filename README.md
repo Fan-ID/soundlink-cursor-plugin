@@ -2,7 +2,7 @@
 
 Connect Cursor to your Soundlink organization. The plugin is read-only. It calls `https://api.getsoundlink.com/mcp`.
 
-Create the key in [Settings → Developer → API keys](https://getsoundlink.com/settings/developer). To read everything the server exposes, include `campaigns:read`, `metrics:read`, `soundlinks:read`, and `wallet:read`. Field details: [MCP server](https://www.getsoundlink.com/docs/mcp).
+Create the key in [Settings → Developer → API keys](https://getsoundlink.com/settings/developer). To read everything the server exposes, include `campaigns:read`, `metrics:read`, `soundlinks:read`, and `wallet:read`. Field details: [MCP server](https://www.getsoundlink.com/docs/mcp-server).
 
 ## Install from this repo
 

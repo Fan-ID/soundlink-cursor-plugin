@@ -6,7 +6,7 @@
     "name": "Soundlink",
     "email": "hello@getsoundlink.com"
   },
-  "homepage": "https://www.getsoundlink.com/docs/mcp",
+  "homepage": "https://www.getsoundlink.com/docs/mcp-server",
   "repository": "https://github.com/Fan-ID/soundlink-cursor-plugin",
   "license": "MIT",
   "keywords": ["soundlink", "mcp", "campaigns", "music"],
