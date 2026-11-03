@@ -8,7 +8,7 @@
     "email": "hello@getsoundlink.com"
   },
   "homepage": "https://www.getsoundlink.com/docs/mcp-server",
-  "repository": "https://github.com/Fan-ID/soundlink-cursor-plugin",
+  "repository": "https://github.com/Fan-ID/soundlink-mcp-connectors",
   "license": "MIT",
   "keywords": [
     "soundlink",
