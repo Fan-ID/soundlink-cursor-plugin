@@ -1,15 +1,24 @@
 {
   "name": "soundlink",
-  "version": "1.0.0",
-  "description": "Read campaigns, soundlinks, metrics, and wallet balance for a Soundlink organization.",
+  "version": "1.1.0",
+  "description": "Connect Meta ads to Spotify listening: compare attributed listeners, cost per listener, and repeat listening with Soundlink.",
   "author": {
     "name": "Soundlink",
     "email": "hello@getsoundlink.com"
   },
-  "homepage": "https://www.getsoundlink.com/docs/mcp",
-  "repository": "https://github.com/Fan-ID/soundlink-cursor-plugin",
+  "homepage": "https://www.getsoundlink.com/docs/mcp-server",
+  "repository": "https://github.com/Fan-ID/soundlink-mcp-connectors",
   "license": "MIT",
-  "keywords": ["soundlink", "mcp", "campaigns", "music"],
+  "keywords": [
+    "soundlink",
+    "mcp",
+    "music",
+    "attribution",
+    "spotify",
+    "meta-ads",
+    "cost-per-listener",
+    "retention"
+  ],
   "variables": {
     "type": "object",
     "properties": {
@@ -19,6 +28,8 @@
         "description": "From Settings → Developer → API keys. Include campaigns:read, metrics:read, soundlinks:read, and wallet:read."
       }
     },
-    "required": ["SOUNDLINK_API_KEY"]
+    "required": [
+      "SOUNDLINK_API_KEY"
+    ]
   }
 }
